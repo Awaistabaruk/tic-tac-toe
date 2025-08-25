@@ -12,7 +12,8 @@ A classic **Tic Tac Toe game** using **HTML, CSS, and JavaScript** with two-play
 ## 🛠 Features
 - Two-player gameplay (Player X & Player O)  
 - Dynamic winner detection (rows, columns, diagonals)  
-- Reset button to restart the game  
+- Reset button to restart the game
+- Responsive Design
 
 ---
 
