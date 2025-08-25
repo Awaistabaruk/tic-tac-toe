@@ -5,7 +5,7 @@ A classic **Tic Tac Toe game** using **HTML, CSS, and JavaScript** with two-play
 ---
 
 ## 📸 Screenshots
-![Tic Tac Toe Screenshot](Screenshot.png)  
+![Tic Tac Toe Screenshot](tictactoe.png)  
 
 ---
 
