@@ -4,6 +4,11 @@ A classic **Tic Tac Toe game** using **HTML, CSS, and JavaScript** with two-play
 
 ---
 
+## 🌐 Live Demo
+Check the project live here: [TIC-TAC-TOE](https://awaistabaruk.github.io/tic-tac-toe/)
+
+---
+
 ## 📸 Screenshots
 ![Tic Tac Toe Screenshot](assets/tictactoe.png)  
 
