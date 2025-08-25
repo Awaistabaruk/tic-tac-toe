@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div {
+
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.box {
+    height: 120px;
+    width: 120px;
+    color: white;
+    background-color: black;
+    background-image: url(assets/background2.jpg);
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 55px;
+    color: white;
+}
+
+.section {
+     background-image: url(assets/background3.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2 {
+    background-color: hsl(164, 88%, 67%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      background-image: url(assets/background3.jpg);
+    background-size: cover;
+}
+
+.players {
+
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.ply1 {
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.result {
+    height: 200px;
+    width: 375px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.newgame {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    background-color: rgb(160, 36, 36);
+    color: white;
+
+}
+
+.reset {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    background-color: rgb(160, 36, 36);
+    color: white;
+
+}
+
+
+
+/* responsive */
+
+
+
+
+/* Mobiles */
+@media (max-width: 768px) {
+    .section, .section2 {
+        padding: 0px;
+    }
+
+    .title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .players {
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .ply1 {
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .div {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: 270px;       
+        justify-content: center;
+    }
+
+    .box {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    .result {
+        width: 70%;
+        font-size: 22px;
+    }
+
+    .newgame, .reset {
+                width: 77px;
+        height: 27px;
+        font-size: 11px;
+    }
+}
+
+/* Very small screens  */
+@media (max-width: 480px) {
+    .title {
+        font-size: 21px;
+    }
+
+    .div {
+        height: auto;
+        width: 220px;  
+    }
+
+    .box {
+        width: 65px;
+        height: 65px;
+        font-size: 20px;
+        margin: 4px;
+    }
+
+    .ply1 {
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+        visibility: hidden;
+    }
+
+    .result {
+        font-size: 18px;
+    }
+}
